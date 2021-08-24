@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D4969026D43D2400FC2884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D4968F26D43D2400FC2884 /* AppDelegate.m */; };
+		45D4969326D43D2400FC2884 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D4969226D43D2400FC2884 /* SceneDelegate.m */; };
+		45D4969626D43D2400FC2884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D4969526D43D2400FC2884 /* ViewController.m */; };
+		45D4969926D43D2400FC2884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D4969726D43D2400FC2884 /* Main.storyboard */; };
+		45D4969B26D43D2600FC2884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D4969A26D43D2600FC2884 /* Assets.xcassets */; };
+		45D4969E26D43D2600FC2884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D4969C26D43D2600FC2884 /* LaunchScreen.storyboard */; };
+		45D496A126D43D2600FC2884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D496A026D43D2600FC2884 /* main.m */; };
+		45D496AC26D43D8F00FC2884 /* HansServer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45D496A826D43D8E00FC2884 /* HansServer.bundle */; };
+		45D496AE26D43D8F00FC2884 /* HansArticle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45D496AA26D43D8F00FC2884 /* HansArticle.bundle */; };
+		45D496B326D43F4C00FC2884 /* HansArticle.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D496A726D43D8E00FC2884 /* HansArticle.xcframework */; };
+		45D496B426D43F4C00FC2884 /* HansArticle.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45D496A726D43D8E00FC2884 /* HansArticle.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45D496B626D43F4D00FC2884 /* HansServer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D496A926D43D8E00FC2884 /* HansServer.xcframework */; };
+		45D496B726D43F4D00FC2884 /* HansServer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45D496A926D43D8E00FC2884 /* HansServer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45D496BC26D4409600FC2884 /* UIAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D496BA26D4409600FC2884 /* UIAccountTableViewController.m */; };
+		45F1589126D59E1400903DFD /* com.hanmingjie.iOSWithDjangoDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45F1589026D59E1400903DFD /* com.hanmingjie.iOSWithDjangoDemo.plist */; };
+		45F158A526D59F7700903DFD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45F158A726D59F7700903DFD /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45D496B526D43F4C00FC2884 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				45D496B726D43F4D00FC2884 /* HansServer.xcframework in Embed Frameworks */,
+				45D496B426D43F4C00FC2884 /* HansArticle.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45D4968B26D43D2400FC2884 /* iOSWithDjangoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWithDjangoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D4968E26D43D2400FC2884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45D4968F26D43D2400FC2884 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45D4969126D43D2400FC2884 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		45D4969226D43D2400FC2884 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		45D4969426D43D2400FC2884 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45D4969526D43D2400FC2884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45D4969826D43D2400FC2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45D4969A26D43D2600FC2884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45D4969D26D43D2600FC2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45D4969F26D43D2600FC2884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D496A026D43D2600FC2884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45D496A726D43D8E00FC2884 /* HansArticle.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HansArticle.xcframework; path = Framework/HansArticle.xcframework; sourceTree = "<group>"; };
+		45D496A826D43D8E00FC2884 /* HansServer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HansServer.bundle; path = Framework/HansServer.bundle; sourceTree = "<group>"; };
+		45D496A926D43D8E00FC2884 /* HansServer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HansServer.xcframework; path = Framework/HansServer.xcframework; sourceTree = "<group>"; };
+		45D496AA26D43D8F00FC2884 /* HansArticle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HansArticle.bundle; path = Framework/HansArticle.bundle; sourceTree = "<group>"; };
+		45D496AF26D43D9500FC2884 /* HansFrameworkDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HansFrameworkDemo.entitlements; sourceTree = "<group>"; };
+		45D496BA26D4409600FC2884 /* UIAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAccountTableViewController.m; sourceTree = "<group>"; };
+		45D496BB26D4409600FC2884 /* UIAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAccountTableViewController.h; sourceTree = "<group>"; };
+		45F1589026D59E1400903DFD /* com.hanmingjie.iOSWithDjangoDemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = com.hanmingjie.iOSWithDjangoDemo.plist; path = Framework/com.hanmingjie.iOSWithDjangoDemo.plist; sourceTree = "<group>"; };
+		45F158A626D59F7700903DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45F158A826D59F7A00903DFD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45D4968826D43D2400FC2884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D496B626D43F4D00FC2884 /* HansServer.xcframework in Frameworks */,
+				45D496B326D43F4C00FC2884 /* HansArticle.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D4968226D43D2400FC2884 = {
+			isa = PBXGroup;
+			children = (
+				45F1589026D59E1400903DFD /* com.hanmingjie.iOSWithDjangoDemo.plist */,
+				45D496AA26D43D8F00FC2884 /* HansArticle.bundle */,
+				45D496A726D43D8E00FC2884 /* HansArticle.xcframework */,
+				45D496A826D43D8E00FC2884 /* HansServer.bundle */,
+				45D496A926D43D8E00FC2884 /* HansServer.xcframework */,
+				45D4968D26D43D2400FC2884 /* HansFrameworkDemo */,
+				45D4968C26D43D2400FC2884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45D4968C26D43D2400FC2884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D4968B26D43D2400FC2884 /* iOSWithDjangoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D4968D26D43D2400FC2884 /* HansFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45D496AF26D43D9500FC2884 /* HansFrameworkDemo.entitlements */,
+				45D4968E26D43D2400FC2884 /* AppDelegate.h */,
+				45D4968F26D43D2400FC2884 /* AppDelegate.m */,
+				45D4969126D43D2400FC2884 /* SceneDelegate.h */,
+				45D4969226D43D2400FC2884 /* SceneDelegate.m */,
+				45F158A726D59F7700903DFD /* Localizable.strings */,
+				45D4969426D43D2400FC2884 /* ViewController.h */,
+				45D4969526D43D2400FC2884 /* ViewController.m */,
+				45D496BB26D4409600FC2884 /* UIAccountTableViewController.h */,
+				45D496BA26D4409600FC2884 /* UIAccountTableViewController.m */,
+				45D4969726D43D2400FC2884 /* Main.storyboard */,
+				45D4969A26D43D2600FC2884 /* Assets.xcassets */,
+				45D4969C26D43D2600FC2884 /* LaunchScreen.storyboard */,
+				45D4969F26D43D2600FC2884 /* Info.plist */,
+				45D496A026D43D2600FC2884 /* main.m */,
+			);
+			path = HansFrameworkDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45D4968A26D43D2400FC2884 /* iOSWithDjangoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D496A426D43D2600FC2884 /* Build configuration list for PBXNativeTarget "iOSWithDjangoDemo" */;
+			buildPhases = (
+				45D4968726D43D2400FC2884 /* Sources */,
+				45D4968826D43D2400FC2884 /* Frameworks */,
+				45D4968926D43D2400FC2884 /* Resources */,
+				45D496B526D43F4C00FC2884 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSWithDjangoDemo;
+			productName = HansFrameworkDemo;
+			productReference = 45D4968B26D43D2400FC2884 /* iOSWithDjangoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45D4968326D43D2400FC2884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					45D4968A26D43D2400FC2884 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 45D4968626D43D2400FC2884 /* Build configuration list for PBXProject "iOSWithDjangoDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 45D4968226D43D2400FC2884;
+			productRefGroup = 45D4968C26D43D2400FC2884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D4968A26D43D2400FC2884 /* iOSWithDjangoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45D4968926D43D2400FC2884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D4969E26D43D2600FC2884 /* LaunchScreen.storyboard in Resources */,
+				45F158A526D59F7700903DFD /* Localizable.strings in Resources */,
+				45D4969B26D43D2600FC2884 /* Assets.xcassets in Resources */,
+				45D496AC26D43D8F00FC2884 /* HansServer.bundle in Resources */,
+				45F1589126D59E1400903DFD /* com.hanmingjie.iOSWithDjangoDemo.plist in Resources */,
+				45D4969926D43D2400FC2884 /* Main.storyboard in Resources */,
+				45D496AE26D43D8F00FC2884 /* HansArticle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D4968726D43D2400FC2884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D4969626D43D2400FC2884 /* ViewController.m in Sources */,
+				45D4969026D43D2400FC2884 /* AppDelegate.m in Sources */,
+				45D496A126D43D2600FC2884 /* main.m in Sources */,
+				45D496BC26D4409600FC2884 /* UIAccountTableViewController.m in Sources */,
+				45D4969326D43D2400FC2884 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45D4969726D43D2400FC2884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D4969826D43D2400FC2884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45D4969C26D43D2600FC2884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D4969D26D43D2600FC2884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45F158A726D59F7700903DFD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F158A626D59F7700903DFD /* en */,
+				45F158A826D59F7A00903DFD /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45D496A226D43D2600FC2884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45D496A326D43D2600FC2884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45D496A526D43D2600FC2884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HansFrameworkDemo/HansFrameworkDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KM9DQ5C6Z;
+				INFOPLIST_FILE = HansFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanmingjie.iOSWithDjangoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		45D496A626D43D2600FC2884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HansFrameworkDemo/HansFrameworkDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KM9DQ5C6Z;
+				INFOPLIST_FILE = HansFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanmingjie.iOSWithDjangoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D4968626D43D2400FC2884 /* Build configuration list for PBXProject "iOSWithDjangoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D496A226D43D2600FC2884 /* Debug */,
+				45D496A326D43D2600FC2884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D496A426D43D2600FC2884 /* Build configuration list for PBXNativeTarget "iOSWithDjangoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D496A526D43D2600FC2884 /* Debug */,
+				45D496A626D43D2600FC2884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45D4968326D43D2400FC2884 /* Project object */;
+}

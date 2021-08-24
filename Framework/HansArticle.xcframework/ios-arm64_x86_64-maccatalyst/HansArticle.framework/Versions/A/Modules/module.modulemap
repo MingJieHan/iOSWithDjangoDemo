@@ -1,0 +1,6 @@
+framework module HansArticle {
+  umbrella header "HansArticle.h"
+
+  export *
+  module * { export * }
+}

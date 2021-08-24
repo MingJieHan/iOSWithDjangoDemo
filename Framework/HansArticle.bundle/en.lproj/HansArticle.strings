@@ -1,0 +1,27 @@
+/* 
+  string.strings
+  iOSWithDjango
+
+  Created by jia yu on 2021/8/1.
+  
+*/
+
+//Artiles list view
+"Write an Article" = "Write an Article";
+"Share your own articles, media and more!" = "Share your own articles, media and more!";
+"Loading..." = "Loading...";
+"Delete" = "Delete";
+"Edit" = "Edit";
+"Load more articles" = "Load more articles";
+
+//article about time date.
+"just now" = "just now";
+"%ld min ago" = "%ld min ago";
+
+//edit article
+"Article title" = "Article title";
+"Say something ... " = "Say something ... ";
+"POST" = "POST";
+
+//View Article
+"Comments:" = "Comments:";

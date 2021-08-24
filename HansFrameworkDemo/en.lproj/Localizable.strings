@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  iOSWithDjangoDemo
+
+  Created by jia yu on 2021/8/25.
+  
+*/
+
+
+//UIAccountTableViewController
+"Account" = "Account";
+"System" = "System";
+"Details" = "Details";
+"Cache Size" = "Cache Size";
+"Log Out" = "Log Out";
+"Log In" = "Log In";
+"Cancel" = "Cancel";
+"Do you want to logout?" = "Do you want to logout?";
+"Clean" = "Clean";
+"Clean Cache?" = "Clean Cache?";
+"Do you want to clean caches? this app will faster with caches." = "Do you want to clean caches? this app will faster with caches.";

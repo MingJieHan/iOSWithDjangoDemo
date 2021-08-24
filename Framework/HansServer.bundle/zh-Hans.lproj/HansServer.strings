@@ -1,0 +1,23 @@
+/* 
+  string.strings
+  iOSWithDjango
+
+  Created by jia yu on 2021/8/1.
+  
+*/
+
+//登录界面
+"Log In" = "登录";
+"Password" = "密码";
+"Email Address" = "电子邮件地址";
+"Log in with Email" = "电子邮件登录";
+"Forgot your password?" = "忘记密码?";
+"Don't have a %@ Account? %@" = "没有%@的账号? %@";
+"Sign up" = "注册";
+"Terms of Service" = "服务条款";
+"Privacy Policy" = "保护隐私规则";
+"By continuing, you agree to %@'s Terms of Service and acknowledge %@'s Privacy Policy." = "继续操作表示您已经同意%@的服务条款, 并已经知悉%@的保护隐私规则.";
+
+
+//注册界面
+"Don't worry, we won't post without your permission." = "不用担心，在没有您授权的情况下，发送任何信息。";

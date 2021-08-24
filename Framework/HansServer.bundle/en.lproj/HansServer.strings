@@ -1,0 +1,24 @@
+/* 
+  string.strings
+  iOSWithDjango
+
+  Created by jia yu on 2021/8/1.
+  
+*/
+
+//LoginView
+"Log In" = "Log In";
+"Password" = "Password";
+"Email Address" = "Email Address";
+"Log in with Email" = "Log in with Email";
+"Forgot your password?" = "Forgot your password?";
+"Don't have a %@ Account? %@" = "Don't have a %@ Account? %@";
+"Sign up" = "Sign up";
+"Terms of Service" = "Terms of Service";
+"Privacy Policy" = "Privacy Policy";
+"By continuing, you agree to %@'s Terms of Service and acknowledge %@'s Privacy Policy." = "By continuing, you agree to %@'s Terms of Service and acknowledge %@'s Privacy Policy.";
+
+
+
+//Sign up view
+"Don't worry, we won't post without your permission." = "Don't worry, we won't post without your permission.";

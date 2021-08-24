@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  iOSWithDjangoDemo
+
+  Created by jia yu on 2021/8/25.
+  
+*/
+
+
+
+//UIAccountTableViewController
+"Account" = "账号";
+"System" = "系统";
+"Details" = "详情";
+"Cache Size" = "缓冲大小";
+"Log Out" = "登出";
+"Log In" = "登入";
+"Cancel" = "取消";
+"Do you want to logout?" = "您准备登出账号？";
+"Clean" = "清除";
+"Clean Cache?" = "清除缓存?";
+"Do you want to clean caches? this app will faster with caches." = "您准备清除缓存？这个软件会更快在有缓存的情况下。";

@@ -1,0 +1,28 @@
+/* 
+  string.strings
+  iOSWithDjango
+
+  Created by jia yu on 2021/8/1.
+  
+*/
+
+//文章列表界面
+"Write an Article" = "写首篇文章";
+"Share your own articles, media and more!" = "分享您自己的文章、图片、视频!";
+"Loading..." = "载入中...";
+"Delete" = "删除";
+"Edit" = "编辑";
+"Load more articles" = "载入更多文章";
+
+//时间显示
+"just now" = "刚刚";
+"%ld min ago" = "%ld分钟以前";
+
+
+//文章编辑界面
+"Article title" = "点击, 添加文章标题";
+"Say something ... " = "点击, 添加说明文字";
+"POST" = "发表";
+
+//View Article
+"Comments:" = "评论区:";
