@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Article.bundle/add_file.png</key>
+		<data>
+		Yprg6LX18nPHUPj2yywVtC/jivA=
+		</data>
+		<key>Resources/Article.bundle/add_file@2x.png</key>
+		<data>
+		CNJmn59zl+onAQ1f3MC3W48zYXU=
+		</data>
+		<key>Resources/Article.bundle/add_file@3x.png</key>
+		<data>
+		RmDFK49n5bL4u38hoqN7izGIXuM=
+		</data>
 		<key>Resources/Article.bundle/add_image.png</key>
 		<data>
 		MbjJ19dCEZ+T1/GProljuOX7jdo=
@@ -15,6 +27,18 @@
 		<key>Resources/Article.bundle/add_image@3x.png</key>
 		<data>
 		fUoCGypFmLQpUAq7F2GEwESkI/U=
+		</data>
+		<key>Resources/Article.bundle/add_mp3.png</key>
+		<data>
+		PVg+3dyzpfDzA2VAeewpB/GkQWM=
+		</data>
+		<key>Resources/Article.bundle/add_mp3@2x.png</key>
+		<data>
+		2gYuGJ8XgITkTRN7KFo2BxovgLY=
+		</data>
+		<key>Resources/Article.bundle/add_mp3@3x.png</key>
+		<data>
+		Tthnsp5vfhdw1tF3eloDluP3/RI=
 		</data>
 		<key>Resources/Article.bundle/add_video.png</key>
 		<data>
@@ -78,7 +102,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		QWtnYf5zy8JHOeLu5JfKnR0FQ+M=
+		EchL5Ks4vMGY0049LN7m9ywsB04=
 		</data>
 		<key>Resources/UIArticleViewImageTableViewCell.bundle/default.png</key>
 		<data>
@@ -99,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJ9Uits+g47fQrDQhU0LATQyovyGWTfjrMguYGgFT8U=
+			kw1HRjPtKtLrGVig1eXh56oKwFcRtBJiNxPB8VCwVto=
 			</data>
 		</dict>
 		<key>Headers/HansArticle.h</key>
@@ -134,14 +158,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EskyefK9XOlIuZOn7V4VeZbnAv12hTtQWycILQa9OGE=
+			7S/MmRSXWECVh3InqJAsz4L4kz1Plv8LbfB3FONC8wo=
 			</data>
 		</dict>
 		<key>Headers/UIArticleListTableViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RPNkZa8IxhLNeuRMfpQvTFsxrH4oL6HrAq+f7SHzCNE=
+			q1qVogdXJChawuzfaIScf6cUkWmnxQKMRmctwwqY1vw=
 			</data>
 		</dict>
 		<key>Headers/UIArticleViewController.h</key>
@@ -165,6 +189,27 @@
 			t+nGvEP9HOnJLcq7RBlVVZfVmJX8wWsacfdUDWL7DYg=
 			</data>
 		</dict>
+		<key>Resources/Article.bundle/add_file.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xi2nbG8L64BYrh6oHohkphokTicJZvjVcvPU0d7jiA0=
+			</data>
+		</dict>
+		<key>Resources/Article.bundle/add_file@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qDi5KzfZgvk3LW3b9SL794MaprdOpCRtcAqD2ySLz3k=
+			</data>
+		</dict>
+		<key>Resources/Article.bundle/add_file@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CSVTtm70XoUKfAsETlQUtdUYaHQX41A/gHQxZvl42Vc=
+			</data>
+		</dict>
 		<key>Resources/Article.bundle/add_image.png</key>
 		<dict>
 			<key>hash2</key>
@@ -184,6 +229,27 @@
 			<key>hash2</key>
 			<data>
 			EvvdH37gAC0Ewoe1EjBuCWCdI/q0QZKDN8EzhASKtso=
+			</data>
+		</dict>
+		<key>Resources/Article.bundle/add_mp3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ia0QF+KHqqBVZBWvkE3ez4h4CO3orbwb7BudIgEj1ho=
+			</data>
+		</dict>
+		<key>Resources/Article.bundle/add_mp3@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sgC4ateFytGpo77iYm+0W6enlNyfH0AIDfEqhhoXfO8=
+			</data>
+		</dict>
+		<key>Resources/Article.bundle/add_mp3@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yHg4uJ7xsoX4BV7RjtNp9psQ0Tbs2r0VtK3ukcDadPQ=
 			</data>
 		</dict>
 		<key>Resources/Article.bundle/add_video.png</key>
@@ -295,7 +361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSOiVXtoECgAnE0OVkEeZoC6sWRaJxzmdAgz/+Fq61c=
+			mT6SZbdR2tMvBoECA6Tk4g36ZWuotALaMKabSPoJUts=
 			</data>
 		</dict>
 		<key>Resources/UIArticleViewImageTableViewCell.bundle/default.png</key>

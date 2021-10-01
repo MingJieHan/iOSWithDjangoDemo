@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		da8rF49MtK/L/dTtZdtWKVhOxmA=
+		UzDSA5a5LTgXwExkKkZ7xTR6Zps=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -30,6 +30,13 @@
 			<key>hash2</key>
 			<data>
 			sBBPk8wBUUBpi1WCUZdf50YFb3vU/7LMwdY+RNqg3eA=
+			</data>
+		</dict>
+		<key>Headers/HansInformationViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vsRr945ctIY6yFsW+dkg1HiRSXXy9kD5Zql4sSIVUEo=
 			</data>
 		</dict>
 		<key>Headers/HansInputFloatViewController.h</key>
@@ -64,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SZE8M/UdJDwS3kwMy+e0hvjBvRVN5ANRlzcMJqGskmQ=
+			q7r1MDiOxXifZH8yFD72Utmm6Tdvs8VdGo324CpRFBU=
 			</data>
 		</dict>
 		<key>Headers/HansSelectOneTableViewController.h</key>
@@ -78,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XVDhWunAGvNkk1xUBGihLV10TE4gIfYB1G5LmzStNCs=
+			13NaNyCezc8vRDGoRIC2vTk2ho526DBtPv4U0r0DxxU=
 			</data>
 		</dict>
 		<key>Headers/HansServerHandler.h</key>
@@ -127,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohsyoBOnRWcV7Ev63JrfopHDmoJirKohWKpHUW5xP0A=
+			1ZVvMaigKeDBxNAi4tUM8/7KHgL1yNhmlB06VZyLk9o=
 			</data>
 		</dict>
 	</dict>

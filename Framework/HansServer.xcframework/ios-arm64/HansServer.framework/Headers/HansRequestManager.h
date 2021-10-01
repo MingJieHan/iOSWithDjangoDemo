@@ -19,6 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
 //request data for urlString
 -(NSData *)request:(NSString *)urlString withHandler:(HansRequestManager_Complete_Handler)completeHandler;
 
+//return nil when NO cache
+-(NSData *)cached:(NSString *)urlString;
+
+
 //remove cache for must update url
 -(BOOL)removeCacheForUrl:(NSString *)urlString;
 

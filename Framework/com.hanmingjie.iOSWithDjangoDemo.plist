@@ -5,19 +5,19 @@
     <key>bundle_identifier</key>
     <string>com.hanmingjie.iOSWithDjangoDemo</string>
     <key>certificate</key>
-    <string>6c8a91d96634c138a791a1fb8a2c26b395ee5b161b4668ae289ace71c1c6f09ac9fdfd6b7dc1b6b04fc2472babc0b31cd4856a8319cfe5b7e6a32d208ddb079a</string>
+    <string>49f12257da4c7ddb770b94c4e7de018539ab99fd43bef7701b238c11f141b6e00b7111fa19ded1c75dec8443081d5578edc391d23d408225cf8397f10eb68cae</string>
     <key>company_address</key>
-    <string>No.1 KunMing China</string>
+    <string>Kunming China</string>
     <key>company_email</key>
     <string>hanmingjie@gmail.com</string>
     <key>company_name</key>
     <string>Hans</string>
     <key>expired_date</key>
-    <string>20210901</string>
+    <string>20211009</string>
     <key>issued_date</key>
-    <string>20210824</string>
+    <string>20211001</string>
     <key>modified_date</key>
-    <date>2021-08-24T21:36:50Z</date>
+    <date>2021-10-01T20:43:26Z</date>
     <key>Refresh Free Certificate</key>
     <string>https://developer.hanmingjie.com/</string>
 </dict>

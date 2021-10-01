@@ -22,7 +22,7 @@
 #import <HansServer/HansManyLineStringEditViewController.h>
 #import <HansServer/HansInputFloatViewController.h>
 #import <HansServer/HansSelectOneTableViewController.h>
-
+#import <HansServer/HansInformationViewController.h>
 
 extern float HansServerVersion;         //1.1 etc
 extern NSInteger HansServerBuildNumber; //3453 etc

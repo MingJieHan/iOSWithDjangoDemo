@@ -15,5 +15,6 @@ extern NSBundle *HansArticleBundle;
 @property (nonatomic) BOOL isMySelfOnly;
 @property (nonatomic) UIColor *tintColor;
 @property (nonatomic) NSString *refreshTitle;
+@property (nonatomic) NSString * _Nullable topic;       //show articles fallow the topic only.
 @end
 NS_ASSUME_NONNULL_END
