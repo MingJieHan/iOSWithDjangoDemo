@@ -28,15 +28,20 @@
 //    server = NO;
     //empty cached files
 //    [HansCache.shareHansCache clean];
+    HansServer *s = HansServer.shareServer;
+    if (nil == s){
+        NSLog(@"The Framework Certificate expired, please goto https://developer.hanmingjie.com/ request other certificate.");
+        return YES;
+    }
     
     if (server){
-        HansServer.shareServer.server = @"djangoserver.hanmingjie.com";
-        HansServer.shareServer.port = 443;
-        HansServer.shareServer.requestHttps = YES;
+        s.server = @"djangoserver.hanmingjie.com";
+        s.port = 443;
+        s.requestHttps = YES;
     }else{
-        HansServer.shareServer.server = @"192.168.3.2";
-        HansServer.shareServer.port = 80;
-        HansServer.shareServer.requestHttps = NO;
+        s.server = @"192.168.3.3";
+        s.port = 80;
+        s.requestHttps = NO;
     }
     
     NSString *f = [NSBundle.mainBundle pathForResource:@"Info" ofType:@"plist"];
